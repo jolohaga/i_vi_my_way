@@ -16,10 +16,5 @@ export PATH=~/bin:/opt/pdflabs/pdftk/bin:/usr/local/bin:/opt/local/bin:/usr/loca
 
 PS1='[%m:%2c] %n%% '
 
-#function cuke() {
-# mkdir -p results
-# `ruby -e "puts %{bundle exec cucumber --format html --out results/#{'focused-' if ARGV.count > 0}cukes.html --format pretty #{ARGV.join(' ')}}" $*`
-#}
-
 autoload -U compinit
 compinit
