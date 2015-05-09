@@ -6,6 +6,7 @@ setopt share_history
 
 alias bundle='nocorrect bundle'
 alias spring='nocorrect spring'
+alias gem='nocorrect gem'
 alias -r rm='rm -i'
 alias -r l='ls -lha'
 alias -r ssh='ssh -A'
