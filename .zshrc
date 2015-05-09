@@ -9,6 +9,7 @@ alias spring='nocorrect spring'
 alias -r rm='rm -i'
 alias -r l='ls -lha'
 alias -r ssh='ssh -A'
+alias -r ..='cd ..'
 alias -r g='git'
 
 PS1='[%m:%2c] %n%% '
